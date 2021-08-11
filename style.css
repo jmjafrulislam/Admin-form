@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background: grey;
+      }
+      div{
+          background-color: #013a6b;
+          color: rgb(53, 22, 56);
+          text-align: center;
+          width: 60%;
+          margin: 15px auto;
+          padding: 15px;
+      }
+      div img{
+            width: 200px;
+            margin: 30px;
+      }
+      .admin-heading{
+             font-size: 40px;
+             text-align: center;
+             color: aqua;
+             margin-bottom: 5px;
+             padding: 20px 0px;
+      }
+      div form input{
+             display: block;
+             margin: 5px auto;
+             padding: 10px;
+             width: 70%;
+             border-radius: 33px;
+             color: black;
+             border: none;
+      }
+      .form-button{
+        width: 30%;
+        margin: 20px auto;
+        background: aqua;
+        font-size: 20px;
+        border: none;
+    }
+    div form input:focus{
+        background:transparent;
+        color: white;
+        transition: 0.5s;
+    }    
+    .form-button:hover{
+        background-color: #013a6b;
+        transition: 0.8s;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        border-style:dotted;
+    }
+    .linked a {
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 2.5px;
+    }
